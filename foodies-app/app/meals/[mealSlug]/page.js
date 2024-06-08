@@ -3,7 +3,7 @@ import React from 'react'
 const some = ({params}) => {
     return (
         <div>
-            <p>{params.slug}</p>
+            <p>{params.mealSlug}</p>
         </div>
   )
 }
